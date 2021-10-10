@@ -2,9 +2,10 @@
   "name": "food-tracker-final",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d deploy"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +14,7 @@
   "dependencies": {
     "parcel": "^2.0.0-rc.0",
     "chart.js": "^3.5.1",
-    "snackbar": "^1.1.0"
+    "snackbar": "^1.1.0",
+    "gh-pages": "^3.1.0"
   }
 }
