@@ -9,7 +9,9 @@
   margin: 15px 176px;
   background-color: aliceblue;
 }
-
+h1 {
+  text-align: center;
+}
 form {
   background-color: rgb(179, 214, 245);
   padding: 2rem;
