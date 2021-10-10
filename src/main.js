@@ -13,7 +13,7 @@ const displayCalories = document.querySelector(".total-calories");
 const API = new FetchWrapper(
   "https://firestore.googleapis.com/v1/projects/programmingjs-90a13/databases/(default)/documents/"
 );
-const endpoint = "oussama-test7";
+const endpoint = "oussama-bahri-dataSet";
 const ctx = document.getElementById("myChart").getContext("2d");
 
 form.addEventListener("submit", async (e) => {

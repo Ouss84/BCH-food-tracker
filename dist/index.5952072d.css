@@ -41,11 +41,18 @@ textarea {
   border: none;
   width: 6vw;
 }
+
 #meal,
 #submit {
   width: 40vw;
 }
-
+#submit {
+  font-size: 1rem;
+  border: solid black 1px;
+}
+#submit:hover {
+  cursor: pointer;
+}
 input:last-child {
   margin-left: 7.4rem;
   padding: 8px;
