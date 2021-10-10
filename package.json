@@ -1,0 +1,17 @@
+{
+  "name": "food-tracker-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "parcel": "^2.0.0-rc.0",
+    "chart.js": "^3.5.1"
+  }
+}

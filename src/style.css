@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: block;
+  width: 75vw;
+  margin: 15px 176px;
+  background-color: aliceblue;
+}
+
+form {
+  background-color: rgb(179, 214, 245);
+  padding: 2rem;
+  text-align: center;
+  border-radius: 5px;
+}
+form h3 {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.form-container {
+  padding: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 21%;
+  color: rgb(97, 90, 90);
+}
+
+input,
+textarea {
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin: 5px 0;
+  border: none;
+  width: 6vw;
+}
+#meal,
+#submit {
+  width: 40vw;
+}
+
+input:last-child {
+  margin-left: 7.4rem;
+  padding: 8px;
+  margin-top: 13px;
+}
+
+li {
+  list-style-type: none;
+}
+li:first-child {
+  color: red;
+}
+.total-calories {
+  width: auto;
+  background-color: antiquewhite;
+  height: 50px;
+}
+.display-facts {
+  display: flex;
+  padding: 2rem;
+  margin: 2rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.food-card {
+  margin: 1.2rem;
+  width: auto;
+  border: solid grey 2px;
+}
+.display-chart {
+  height: 400px;
+  width: 400px;
+  /* display: block; */
+  text-align: center;
+}
+.food-card ul {
+  padding: 5px;
+}
+.total-calories {
+  text-align: center;
+}
+#display-chart {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.5952072d.css">
+    <script src="/index.147655b4.js" defer=""></script>
+    <title>Food tracker app</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Food tracker App</h1>
+      <div class="form-container">
+        <form id="form">
+          <label for="meal">Enter your meal:</label>
+          <input type="text" id="meal">
+          <label for="protein">Protein:</label>
+          <input type="number" id="protein">
+          <label for="carbs">Carbs:</label>
+          <input type="number" id="carbs">
+          <label for="fat">Fat:</label>
+          <input type="number" id="fat">
+          <input type="submit" value="Add and Dispaly Nutrutious Facts" id="submit">
+        </form>
+      </div>
+      <div class="display-facts"></div>
+      <div class="total-calories"></div>
+      <div class="display-chart" id="display-chart">
+        <canvas id="myChart" width="100" height="100"></canvas>
+      </div>
+    </div>
+  </body>
+</html>
